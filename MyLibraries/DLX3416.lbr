@@ -274,9 +274,32 @@
 <devicesets>
 <deviceset name="DLX3416">
 <gates>
+<gate name="G$1" symbol="HDL" x="5.08" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="DLX3416">
+<connects>
+<connect gate="G$1" pin="!BL" pad="14"/>
+<connect gate="G$1" pin="!CE3" pad="3"/>
+<connect gate="G$1" pin="!CE4" pad="4"/>
+<connect gate="G$1" pin="!CLR" pad="5"/>
+<connect gate="G$1" pin="!CU" pad="10"/>
+<connect gate="G$1" pin="!WR" pad="9"/>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="8"/>
+<connect gate="G$1" pin="CE1" pad="1"/>
+<connect gate="G$1" pin="CE2" pad="2"/>
+<connect gate="G$1" pin="CUE" pad="11"/>
+<connect gate="G$1" pin="D0" pad="16"/>
+<connect gate="G$1" pin="D1" pad="17"/>
+<connect gate="G$1" pin="D2" pad="18"/>
+<connect gate="G$1" pin="D3" pad="19"/>
+<connect gate="G$1" pin="D4" pad="20"/>
+<connect gate="G$1" pin="D5" pad="21"/>
+<connect gate="G$1" pin="D6" pad="22"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
